@@ -22,7 +22,7 @@
         </activity>
         <activity android:name=".ShowA" />
         <activity android:name=".TabActivityBaseTest" />
-        
+        <activity android:name=".RotateTest" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
     </application>
 
 </manifest>

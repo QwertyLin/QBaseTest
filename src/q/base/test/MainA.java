@@ -12,8 +12,8 @@ public class MainA extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        startActivity(new Intent(this, TabActivityBaseTest.class));
-        
+        //startActivity(new Intent(this, TabActivityBaseTest.class));
+        startActivity(new Intent(this, RotateTest.class));
         finish();
     }
 

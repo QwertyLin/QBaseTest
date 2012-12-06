@@ -20,7 +20,7 @@ public class TabActivityBaseTest extends TabActivityBase {
 
 	@Override
 	protected String getBtnText(int position) {
-		return "测试" + position;
+		return "测试";
 	}
 
 	@Override
